@@ -1,6 +1,15 @@
-# React + TypeScript + Vite
+# Kenny Nguyen - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, animated portfolio website built with React, TypeScript, and Vite. Features smooth animations, interactive components, and a custom chatbot for enhanced user experience.
+
+## Technologies Used
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- GSAP
+- Lucide React Icons
 
 Currently, two official plugins are available:
 
