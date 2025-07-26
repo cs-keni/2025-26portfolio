@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -56,7 +56,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-white dark:bg-dark-900 text-gray-900 dark:text-white overflow-x-hidden">
-      <Header isDark={isDark} toggleTheme={toggleTheme} />
+      <Header theme={isDark ? 'dark' : 'light'} toggleTheme={toggleTheme} />
       
       <main>
         <Hero />

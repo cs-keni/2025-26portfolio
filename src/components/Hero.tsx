@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ChevronDown, Download, Mail, Github, Linkedin, Phone } from 'lucide-react';
+import { ChevronDown, Download, Mail, Github, Phone } from 'lucide-react';
 import ParticleBackground from './ParticleBackground';
 
 const Hero = () => {
